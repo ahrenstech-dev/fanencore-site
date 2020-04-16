@@ -1,0 +1,15 @@
+{
+  "config": {
+    "process-timeout": 0
+  },
+  "scripts": {
+    "serve": "php -S localhost:8001 server.php"
+  },
+  "require": {
+      "fzaninotto/faker": "^1.9",
+      "lmnt/phi": "dev-master",
+      "tracy/tracy": "^2.7",
+      "nofutur3/tracy-gitpanel": "^0.9.4",
+      "netpromotion/profiler": "^1.3"
+  }
+}
